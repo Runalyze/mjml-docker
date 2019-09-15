@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk --update --no-progress --no-cache add nodejs
+RUN apk --update --no-progress --no-cache add nodejs nodejs-npm
 
 RUN npm install -g mjml@4.4.0
 
